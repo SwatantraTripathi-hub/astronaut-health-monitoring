@@ -1,0 +1,23 @@
+# Virtual environment (yours is named "venv")
+venv/
+.venv/
+
+# Python junk
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Raw and large data: never commit datasets
+data/raw/
+*.dat
+*.hea
+*.atr
+
+# Secrets and local config
+.env
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
